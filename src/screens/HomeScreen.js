@@ -1,8 +1,13 @@
+import { Button, StyleSheet, Text, View } from "react-native";
+
 import React from "react";
-import {Text, StyleSheet } from "react-native";
 
 const HomeScreen = () => {
-return <Text style={styles.text}>Mi primer App</Text>;
+  return (
+    <View>
+      <Text style={styles.text}>Mi primer App</Text>
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
