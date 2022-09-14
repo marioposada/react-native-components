@@ -4,8 +4,10 @@ import CounterScreen from "./src/screens/CounterScreen";
 import HomeScreen from "./src/screens/HomeScreen";
 import ImageScreen from "./src/screens/ImageScreen";
 import ListScreen from "./src/screens/ListScreen";
+import SquareScreen from "./src/screens/SquareScreen";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
+
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -13,7 +15,8 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     Counter: CounterScreen,
-    Color: ColorScreen
+    Color: ColorScreen,
+    Square:  SquareScreen
   },
   {
     initialRouteName: "Home",
