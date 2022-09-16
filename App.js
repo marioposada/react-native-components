@@ -5,9 +5,9 @@ import HomeScreen from "./src/screens/HomeScreen";
 import ImageScreen from "./src/screens/ImageScreen";
 import ListScreen from "./src/screens/ListScreen";
 import SquareScreen from "./src/screens/SquareScreen";
+import TextScreen from "./src/screens/TextScreen";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -16,7 +16,8 @@ const navigator = createStackNavigator(
     Image: ImageScreen,
     Counter: CounterScreen,
     Color: ColorScreen,
-    Square:  SquareScreen
+    Square:  SquareScreen,
+    Text: TextScreen
   },
   {
     initialRouteName: "Home",
